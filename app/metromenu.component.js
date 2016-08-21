@@ -11,27 +11,27 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var AppComponent;
+    var MetroMenuComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            MetroMenuComponent = (function () {
+                function MetroMenuComponent() {
                 }
-                AppComponent = __decorate([
+                MetroMenuComponent = __decorate([
                     core_1.Component({
-                        selector: 'web-app',
-                        templateUrl: 'app/app.component.html'
+                        selector: 'metro-menu',
+                        templateUrl: 'app/metromenu.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], MetroMenuComponent);
+                return MetroMenuComponent;
             }());
-            exports_1("AppComponent", AppComponent);
+            exports_1("MetroMenuComponent", MetroMenuComponent);
         }
     }
 });
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=metromenu.component.js.map
